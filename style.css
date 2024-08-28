@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 30% 0 30%;
+}
+
+header{
+    width:80%;
+}
+
+h1{
+    font-size:calc(40px+5vh);
+    text-align: center;
+    margin-top:2vh;
+}
+
+hr{
+    margin-top:2vh;
+    margin-bottom:10vh;
+}
+
+main{
+    display:grid;
+    grid-template-areas:
+        "A1 A2 A3 A4 A5"
+        "B1 B2 B3 B4 B5"
+        "C1 C2 C3 C4 C5"
+        "D1 D2 D3 D4 D5"
+        "E1 E2 E3 E4 E5"
+        "F1 F2 F3 F4 F5";
+    grid-gap: calc(20px + 1vh);
+    width: 80%;
+    height: 100%;;
+}
+
+div{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: solid grey 2px;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.A1 { grid-area: A1; }
+.A2 { grid-area: A2; }
+.A3 { grid-area: A3; }
+.A4 { grid-area: A4; }
+.A5 { grid-area: A5; }
+
+.B1 { grid-area: B1; }
+.B2 { grid-area: B2; }
+.B3 { grid-area: B3; }
+.B4 { grid-area: B4; }
+.B5 { grid-area: B5; }
+
+.C1 { grid-area: C1; }
+.C2 { grid-area: C2; }
+.C3 { grid-area: C3; }
+.C4 { grid-area: C4; }
+.C5 { grid-area: C5; }
+
+.D1 { grid-area: D1; }
+.D2 { grid-area: D2; }
+.D3 { grid-area: D3; }
+.D4 { grid-area: D4; }
+.D5 { grid-area: D5; }
+
+.E1 { grid-area: E1; }
+.E2 { grid-area: E2; }
+.E3 { grid-area: E3; }
+.E4 { grid-area: E4; }
+.E5 { grid-area: E5; }
+
+.F1 { grid-area: F1; }
+.F2 { grid-area: F2; }
+.F3 { grid-area: F3; }
+.F4 { grid-area: F4; }
+.F5 { grid-area: F5; }
